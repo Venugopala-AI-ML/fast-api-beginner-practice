@@ -13,7 +13,8 @@ SECRET_KEY  = "bJfX49Scdo6xVfIyXLQ2FXLmMiktaLywzuENMnssMd8" # Replace with a str
 ALGORITHM = "HS256" # Replace with a strong algorithm
 ACCESS_TOKEN_EXPIRE_MINUTES = 30 # Replace with a strong token expiration time
 
-# This tells FastAPI where to look for the token (the /login URL)
+# This tells FastAPI where to look for
+#  the token (the /login URL)
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
 
 # Helper functions that takes user data
